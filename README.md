@@ -1,5 +1,5 @@
 Tutorial 1
 https://dpurdhamflemingc.github.io/Gmaps/
 <div>
-  <img src="../Images/Tutorial1.jpg" alt="Tutorial 1">
+  <img src="https://dpurdhamflemingc.github.io/Gmaps/main/Images/Tutorial1.jpg" alt="Tutorial 1">
 </div>
