@@ -10,7 +10,7 @@ AIzaSyA5a1FoKmbmQ1djPh6pRx7oiknBf3ACNOE&callback=initMap&libraries=&v=weekly"
     <style type="text/css">
       /* Set the size of the div element that contains the map */
       #map {
-        height: 400px;
+        height: 600px;
         /* The height is 400 pixels */
         width: 100%;
         /* The width is the width of the web page */
@@ -20,10 +20,10 @@ AIzaSyA5a1FoKmbmQ1djPh6pRx7oiknBf3ACNOE&callback=initMap&libraries=&v=weekly"
       // Initialize and add the map
       function initMap() {
         // The location of Uluru
-        const uluru = { lat: 43.11762789991586, lng: -79.24769250199859 };, 
+        const uluru = {  lat: 43.11762789991586, lng: -79.24769250199859 };
         // The map, centered at Uluru
         const map = new google.maps.Map(document.getElementById("map"), {
-          zoom: 4,
+          zoom: 15,
           center: uluru,
         });
         // The marker, positioned at Uluru
